@@ -1,8 +1,3 @@
-# React + Vite
+React.JS focused student project corresponding to the 'Certified Tech Developer' extended (450h) bootcamp, offered by DigitalHouse, Globant & MercadoLibre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This particular project is for the React.js module, so it's focused on displaying skills on those particular technologies.
