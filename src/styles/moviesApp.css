@@ -1,0 +1,70 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+form {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0.6rem;
+    width: 25rem;
+}
+
+button {
+    background-color: rgb(179, 31, 179);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 0 0.2rem;
+    padding: 0.7rem 1.2rem;
+    transition: 0.5s all ease;
+}
+
+button:hover {
+    background-color: rgb(218, 38, 218);
+}
+
+.movieList {
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movieCard {
+    background-color: rgb(92, 38, 92);
+    border-radius: 1.2rem;
+    box-shadow: 0.3rem;
+    padding: 20px;
+}
+
+.movieCard > img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.7rem;
+}
+
+.movieTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.movieDescription {
+    font-size: 1rem;
+    font-weight: 200;
+}
